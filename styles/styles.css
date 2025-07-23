@@ -216,6 +216,35 @@ header {
   z-index: 1;
   margin: 5px 0;
 }
+.colourful-branch {
+  background-image: url(../assets/news-letter-bg.png);
+  max-width: 1440px;
+  height: 533px;
+  margin: 120px auto 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.colourful-branch h2 {
+  font-size: 50px;
+  color: white;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 23px;
+}
+.colourful-branch input {
+  height: 50px;
+  width: 644px;
+  padding: 0 20px;
+}
+.colourful-branch button {
+  color: white;
+  height: 52px;
+  width: 186px;
+  background-color: #e95a08;
+  font-weight: 600;
+  border: none;
+}
 @media (max-width: 576px) {
   header {
     max-width: 100%;
@@ -353,5 +382,25 @@ header {
     margin: 0;
     height: auto;
     aspect-ratio: 4/3;
+  }
+
+  .colourful-branch div {
+    gap: 10px;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .colourful-branch h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .colourful-branch input {
+    height: 50px;
+    width: 150px;
+  }
+
+  .colourful-branch button {
+    height: 52px;
+    width: 103px;
   }
 }
