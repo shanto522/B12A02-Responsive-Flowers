@@ -75,6 +75,11 @@ header {
   border: none;
   font-weight: 600;
 }
+.card button:hover{
+  background-color: red;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .contant {
   max-width: 1140px;
   margin: 210px auto 0;
@@ -220,6 +225,12 @@ header {
   background-color: #e95a08;
   font-weight: 600;
   border: none;
+  cursor: pointer;
+}
+.colourful-branch button:hover{
+   background-color: red;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .footer-container {
