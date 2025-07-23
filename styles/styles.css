@@ -104,6 +104,118 @@ header {
   right: -100px;
   filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));
 }
+.latest-deals {
+  max-width: 1140px;
+  margin: 134px auto 0;
+  text-align: center;
+}
+.latest-deals h2 {
+  font-size: 50px;
+  font-family: "Noto Serif", serif;
+}
+.latest-deals p {
+  font-size: 23px;
+  margin-top: 15px;
+  letter-spacing: 1.5px;
+}
+.offer {
+  display: flex;
+  max-width: 1140px;
+  margin: 120px auto 0;
+}
+.bloom-plant {
+  font-size: 30px;
+  background-image: url(../assets/deal-bloom.png);
+  color: white;
+  width: 100%;
+}
+.ana-plant {
+  font-size: 30px;
+  color: white;
+  background-image: url(../assets/deal-ana.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.zabo-plant {
+  font-size: 30px;
+  color: white;
+  background-image: url(../assets/deal-zabo.png);
+  width: 100%;
+}
+
+.offer-section {
+  display: flex;
+  gap: 20px;
+  max-width: 1140px;
+  margin: 120px auto 0;
+  width: 100%;
+}
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.offer-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.offer-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+.offer-card h3,
+.offer-card p {
+  z-index: 1;
+  margin: 5px 0;
+}
+.right-banner {
+  flex: 2;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 420px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.right-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+  border-radius: 20px;
+}
+.right-banner h2,
+.right-banner p {
+  z-index: 1;
+  margin: 5px 0;
+}
 @media (max-width: 576px) {
   header {
     max-width: 100%;
@@ -214,5 +326,32 @@ header {
     white-space: nowrap;
     font-size: 18px;
     text-overflow: ellipsis;
+  }
+  .offer-section {
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px auto 0;
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  .left-column {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .offer-card {
+    width: 100%;
+    height: 350px;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .right-banner {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    height: auto;
+    aspect-ratio: 4/3;
   }
 }
