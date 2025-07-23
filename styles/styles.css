@@ -118,31 +118,6 @@ header {
   margin-top: 15px;
   letter-spacing: 1.5px;
 }
-.offer {
-  display: flex;
-  max-width: 1140px;
-  margin: 120px auto 0;
-}
-.bloom-plant {
-  font-size: 30px;
-  background-image: url(../assets/deal-bloom.png);
-  color: white;
-  width: 100%;
-}
-.ana-plant {
-  font-size: 30px;
-  color: white;
-  background-image: url(../assets/deal-ana.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-.zabo-plant {
-  font-size: 30px;
-  color: white;
-  background-image: url(../assets/deal-zabo.png);
-  width: 100%;
-}
 
 .offer-section {
   display: flex;
@@ -199,6 +174,7 @@ header {
   align-items: center;
   color: #fff;
   text-align: center;
+  font-size: 25px;
 }
 .right-banner::before {
   content: "";
