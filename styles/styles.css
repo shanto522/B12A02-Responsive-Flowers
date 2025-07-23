@@ -337,9 +337,9 @@ header {
   .card {
     background: #fff;
     border-radius: 8px;
-    padding: 12px;
+    padding: 8px;
     text-align: center;
-    width: 165px;
+    width: 150px;
   }
 
   .card img {
@@ -368,7 +368,7 @@ header {
     color: white;
     border: none;
     cursor: pointer;
-    width: 155px;
+    width: 140px;
   }
   .sill {
     display: none;
@@ -384,11 +384,11 @@ header {
     margin-left: 10px;
   }
   .right h1 {
-    font-size: 42px;
+    font-size: 35px;
   }
   .right ul li {
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 15px;
     text-overflow: ellipsis;
   }
   .offer-section {
@@ -423,6 +423,7 @@ header {
     gap: 10px;
     padding: 15px;
     align-items: center;
+    
   }
 
   .colourful-branch h2 {
