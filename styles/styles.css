@@ -75,6 +75,35 @@ header {
   border: none;
   font-weight: 600;
 }
+.contant {
+  max-width: 1140px;
+  margin: 210px auto 0;
+  display: flex;
+  gap: 60px;
+}
+.left {
+  position: relative;
+}
+.right {
+  margin-top: 40px;
+}
+.right h1 {
+  font-size: 50px;
+  font-family: "Noto Serif", serif;
+}
+.right ul li {
+  font-size: 22px;
+  margin-left: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sill {
+  height: 286px;
+  width: 286px;
+  position: absolute;
+  top: -130px;
+  right: -100px;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));
+}
 @media (max-width: 576px) {
   header {
     max-width: 100%;
@@ -165,5 +194,25 @@ header {
     border: none;
     cursor: pointer;
     width: 165px;
+  }
+  .sill {
+    display: none;
+  }
+  .contant {
+    display: grid;
+    padding: 0 15px;
+    margin-top: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .left img {
+    width: 100%;
+  }
+  .right h1 {
+    font-size: 45px;
+  }
+  .right ul li {
+    white-space: nowrap;
+    font-size: 18px;
+    text-overflow: ellipsis;
   }
 }
