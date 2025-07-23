@@ -243,7 +243,6 @@ header {
 .footer-links {
   display: flex;
   gap: 110px;
-  /* flex: 2 1 400px; */
 }
 
 .footer-links div {
@@ -333,8 +332,12 @@ header {
   }
 
   .card img {
-    width: 100%;
+    width: 90%;
     height: auto;
+  }
+  .latest-deals p{
+    
+    padding: 0 10px;
   }
 
   .card h4 {
@@ -354,7 +357,7 @@ header {
     color: white;
     border: none;
     cursor: pointer;
-    width: 165px;
+    width: 155px;
   }
   .sill {
     display: none;
@@ -366,21 +369,22 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
   .left img {
-    width: 100%;
+    width: 90%;
+    margin-left: 10px;
   }
   .right h1 {
-    font-size: 45px;
+    font-size: 42px;
   }
   .right ul li {
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 16px;
     text-overflow: ellipsis;
   }
   .offer-section {
     flex-direction: column;
     gap: 15px;
     margin: 30px auto 0;
-    width: 95%;
+    width: 90%;
     padding: 0 10px;
   }
 
