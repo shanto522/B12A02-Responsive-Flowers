@@ -317,8 +317,7 @@ header {
   }
 
   .nav-banner div p {
-     white-space: nowrap;
-    text-overflow: ellipsis;
+    white-space: normal;
     font-size: 18px;
     line-height: 1.5;
     margin-top: 10px;
