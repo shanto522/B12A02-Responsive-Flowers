@@ -279,7 +279,7 @@ header {
   header {
     max-width: 100%;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 10px 14px 10px 15px;
   }
   .navbar ul a span {
     display: none;
@@ -312,6 +312,7 @@ header {
   }
 
   .nav-banner div h2 span {
+    white-space: nowarp;
     font-size: 30px !important;
     color: #e95a08;
   }
