@@ -312,7 +312,8 @@ header {
   }
 
   .nav-banner div h2 span {
-    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     font-size: 30px !important;
     color: #e95a08;
   }
