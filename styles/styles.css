@@ -312,7 +312,7 @@ header {
   }
 
   .nav-banner div h2 span {
-    white-space: nowarp;
+    display: inline-block;
     font-size: 30px !important;
     color: #e95a08;
   }
