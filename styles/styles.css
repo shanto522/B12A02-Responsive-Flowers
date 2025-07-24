@@ -317,11 +317,11 @@ header {
   }
 
   .nav-banner div p {
-  width: 90%;              
+  width: 100%;              
   white-space: normal;         
   overflow-x: hidden; 
   word-wrap: break-word;      
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);  
