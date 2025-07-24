@@ -312,14 +312,13 @@ header {
   }
 
   .nav-banner div h2 span {
-    white-space: nowrap;
-    text-overflow: ellipsis;
     font-size: 30px !important;
     color: #e95a08;
   }
 
   .nav-banner div p {
-    display: block;
+     white-space: nowrap;
+    text-overflow: ellipsis;
     font-size: 18px;
     line-height: 1.5;
     margin-top: 10px;
