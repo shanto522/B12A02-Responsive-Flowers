@@ -317,12 +317,11 @@ header {
   }
 
   .nav-banner div p {
-  width: 100%;              
-  white-space: normal;      
-  word-break: break-word;    
+  width: 90%;              
+  white-space: normal;         
   overflow-x: hidden;       
-  font-size: 16px;
-  /* line-height: 1.5; */
+  font-size: 15px;
+  line-height: 1.5;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);  
   }
@@ -335,9 +334,10 @@ header {
   }
   .our-plants {
     padding: 0 10px;
+    margin-top: 60px;
   }
   .our-plants p{
-    letter-spacing: 0dvb;
+    letter-spacing: 0px;
   }
   .card {
     background: #fff;
