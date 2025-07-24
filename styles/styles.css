@@ -232,7 +232,6 @@ header {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .footer-container {
   background-color: #f8f9fb;
   padding: 40px 20px;
@@ -244,6 +243,8 @@ header {
   display: flex;
   justify-content: space-around;
   gap: 20px;
+   max-width: 1300px;
+  margin: 30px auto 0;
 }
 
 .footer-left .logo {
@@ -253,7 +254,7 @@ header {
 
 .footer-links {
   display: flex;
-  gap: 110px;
+  gap: 120px;
 }
 
 .footer-links div {
@@ -268,9 +269,8 @@ header {
   font-size: 16px;
   color: rgba(107, 114, 128, 1);
 }
-
 .footer-social {
-  display: flex;
+  display: flex; 
 
   gap: 24px;
 }
@@ -322,7 +322,6 @@ header {
   overflow-x: hidden; 
   word-wrap: break-word;      
   font-size: 18px;
-  
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);  
   }
