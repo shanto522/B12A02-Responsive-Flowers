@@ -321,7 +321,7 @@ header {
   white-space: normal;      
   word-break: break-word;    
   overflow-x: hidden;       
-  font-size: 18px;
+  font-size: 16px;
   /* line-height: 1.5; */
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);  
@@ -337,7 +337,7 @@ header {
     padding: 0 10px;
   }
   .our-plants p{
-    letter-spacing: 0px;
+    letter-spacing: 0dvb;
   }
   .card {
     background: #fff;
