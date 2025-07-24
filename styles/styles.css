@@ -292,7 +292,7 @@ header {
     height: 38px;
   }
   .navbar ul {
-    gap: 0px;
+    gap: 70px;
   }
 
   .nav-banner {
@@ -302,8 +302,7 @@ header {
   }
   .nav-banner img {
     order: -1;
-    width: 100%;
-
+    width: 103.5%;
     margin-bottom: 20px;
   }
 
